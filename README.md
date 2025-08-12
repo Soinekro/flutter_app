@@ -2,15 +2,8 @@
 
 A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ * Esta aplicación se conecta a una API externa para gestionar el proceso de autenticación de usuarios.
+ * Permite a los usuarios iniciar sesión proporcionando sus credenciales, las cuales son enviadas de forma segura a la API.
+ * La respuesta de la API determina si el usuario puede acceder a la aplicación o si debe recibir un mensaje de error.
+ * El flujo principal incluye la captura de datos del usuario, el envío de una solicitud HTTP a la API y el manejo de la respuesta para establecer la sesión.
+ */
